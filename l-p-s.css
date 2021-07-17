@@ -1,0 +1,74 @@
+body {
+    text-align: center;
+    background: url("https://wallpaperaccess.com/full/1659879.jpg");
+    color: #621950;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    padding-top: 5px;
+    font-size: 64px;
+    font-family: 'Festive', cursive;
+}
+
+h3 {
+    margin: 10px auto; 
+    margin-bottom: 70px; 
+    font-family: 'Amatic SC', cursive;
+    font-size: 48px; 
+}
+
+p {
+    margin: auto; 
+    font-size: 36px; 
+    font-family: 'Amatic SC', cursive;
+}
+
+.btn {
+    font-family: 'Festive', cursive;
+    background-color: #621950;
+    color: #ffb997; 
+    margin: 20px 10px; 
+    font-size: 32px; 
+    width: 150px; 
+    height: 60px;  
+    border-radius: 14px;
+}
+
+
+img {
+    max-width:100px;
+}
+
+.win-box {
+    margin-top: 20px; 
+    display: grid;
+    grid-template-columns: auto 100px auto 100px;
+    justify-content: center;
+    column-gap: 20px; 
+    row-gap: 10px;
+}
+
+.winner {
+    grid-column: 1 / 5;
+    font-size: 72px;
+}
+
+.btn:hover {
+    /*background-color: rgba(98, 25, 80, 0.9);*/
+    background-color: #843b62;
+    border: solid 2px #ffb997;
+    cursor: pointer;
+}
+
+.g-btn {
+    font-family: 'Festive', cursive;
+    background-color: lightgray;
+    color: grey; 
+    margin: 20px 10px; 
+    font-size: 32px; 
+    width: 150px; 
+    height: 60px;  
+    border-radius: 14px;
+}
